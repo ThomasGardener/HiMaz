@@ -1,0 +1,179 @@
+body {
+  height: 100vh;
+}
+.somebackgroundimg {
+  background-image: url("blur-close-up-decoration-133229.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+header {
+  position: relative;
+  height: 50%;
+
+}
+
+header p {
+  font-style:italic;
+
+font-size: 30px;
+color: white;
+
+}
+
+li {
+  font-size: 18px;
+  color: #fff !important;
+}
+
+p b {
+  font-family: "Caviar_Dreams_Bold";
+  font-weight: normal;
+  color: #222
+}
+
+/* .name {
+  font-size: 22px;
+  font-style: normal;
+} */
+
+/* header h1 {
+  font-family: "AlexBrush";
+}
+
+h2, h3 {
+  font-family: "LoraI";
+} */
+
+.sygdomTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.standOut {
+  width: 70%;
+}
+
+
+.someStuff p
+{
+  font-size: 17px;
+}
+
+.bold {
+font-family: "LoraB";
+/* color: #333230; */
+color: #504e4b;
+font-weight: bold;
+}
+
+
+
+.smallerBold {
+  font-size: 19px;
+  font-family: "LoraB";
+  font-weight: bold;
+  /* color: #333230; */
+  color: #504e4b;
+}
+
+.containHR {
+  width: 60%;
+
+}
+
+.jumboBR {
+  border-top: 1px solid #666;
+}
+
+.titleHr {
+  width: 50%;
+}
+
+footer {
+  height: 90px;
+}
+
+.textUp {
+  margin-top: -5px;
+}
+
+.imgSection {
+  height: 400px;
+}
+
+@font-face {
+  font-family: "AlexBrush";
+  src: url("Font/AlexBrush-Regular.ttf");
+}
+
+@font-face {
+  font-family: "LoraI";
+  src: url("Lora-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "LoraR";
+  src: url("Lora-Regular.ttf");
+}
+
+@font-face {
+  font-family: "LoraB";
+  src: url("Lora-Bold.ttf");
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("font/CaviarDreams.ttf");
+}
+
+@font-face {
+  font-family: "Caviar_Dreams_Bold";
+  src: url("font/Caviar_Dreams_Bold.ttf");
+}
+
+@font-face {
+  font-family: "CaviarDreamsI";
+  src: url("font/Caviar_Dreams_Italic.ttf");
+}
+
+@font-face {
+  font-family: "QuicksandR";
+  src: url("font/Quicksand-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "QuicksandL";
+  src: url("font/Quicksand-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "testFont";
+  src: url("font/OpenSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "openBold";
+  src: url("font/OpenSans-Bold.otf") format("opentype");
+}
+h1, h2, h3, h4, h5 {
+  font-family: "CaviarDreams";
+
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+
+p {
+  font-family: "OpenSans-Light";
+  font-size: 20px;
+  color: #504e4b;
+}
